@@ -1,0 +1,26 @@
+{
+  "name": "selectorlib",
+  "version": "0.1.0",
+  "description": "A library to read a YML file with Xpath or CSS Selectors and extract data from HTML pages using them",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/scrapehero/selectorlib.js.git"
+  },
+  "author": "ashwin@scrapehero.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scrapehero/selectorlib.js/issues"
+  },
+  "homepage": "https://github.com/scrapehero/selectorlib.js#readme",
+  "dependencies": {
+    "yaml": "^1.6.0"
+  },
+  "devDependencies": {
+    "jsdom": "^15.1.0",
+    "jest": "^24.8.0"
+  }
+}

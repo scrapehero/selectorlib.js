@@ -1,0 +1,48 @@
+name:
+    css: h1.product_title
+    type: Text
+price:
+    css: p.price
+    type: Text
+stock:
+    css: p.stock
+    type: Text
+tags:
+    css: 'span.tagged_as a'
+    type: Text
+short_description:
+    css: '.woocommerce-product-details__short-description > p'
+    type: Text
+description:
+    css: 'div#tab-description p'
+    type: Text
+attributes:
+    css: table.shop_attributes
+    multiple: true
+    type: Text
+    children:
+        name:
+            css: th
+            type: Text
+        value:
+            css: td
+            type: Text
+related_products:
+    css: li.product
+    multiple: true
+    type: Text
+    children:
+        name:
+            css: h2
+            type: Text
+        url:
+            css: a
+            type: Link
+        price:
+            css: .price
+            type: Text
+        sku:
+            css: a.button
+            type: Attribute
+            attribute: data-product_sku
+            format: Integer
