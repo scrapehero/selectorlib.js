@@ -1,6 +1,6 @@
 {
   "name": "selectorlib",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A library to read a YML file with Xpath or CSS Selectors and extract data from HTML pages using them",
   "main": "index.js",
   "scripts": {
